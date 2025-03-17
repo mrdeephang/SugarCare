@@ -10,7 +10,7 @@ in classifying images from No Diabetic Retinopathy (No DR) to Proliferative Diab
 <img width="434" alt="Image" src="https://github.com/user-attachments/assets/cfda566d-ebf8-46f7-b40c-85fc499447c3" />
 <img width="434" alt="Image" src="https://github.com/user-attachments/assets/98dafe5b-7a5e-462f-9fc4-c752d3d28c3b" />
 <img width="416" alt="Image" src="https://github.com/user-attachments/assets/a874b359-c8e6-40fd-a8f4-c740a28bf8c2" />
-
+![Image](https://github.com/user-attachments/assets/8043b6ca-e227-4c95-9101-a61e15a3740b)
 
 Tools Used: 
 Python: Used for machine learning, algorithms, and data processing.
