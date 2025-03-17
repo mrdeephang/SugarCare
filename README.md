@@ -33,9 +33,8 @@ pip install Pillow
 pip install Scikit-Learn
 pip install matplotlib
 pip install pandas
-
-then go inside sugarcare directory suing cd sugarcare 
-then run 
+there are more other dependencies u you nedd to install.
 python manage.py runserver
 then go to werbrowser and run
 http://127.0.0.1:8000/
+
