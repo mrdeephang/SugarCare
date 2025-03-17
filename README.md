@@ -6,7 +6,6 @@ Network (CNN), which achieves 94% accuracy in classifying images into ulcer and 
 in classifying images from No Diabetic Retinopathy (No DR) to Proliferative Diabetic Retinopathy (Proliferative DR), offering a comprehensive solution for diabetes care.
 
 <img width="433" alt="Image" src="https://github.com/user-attachments/assets/ae429843-fd69-4343-9ef7-a8fb36b1aa6f" />
-![Image](https://github.com/user-attachments/assets/6552f8c3-db80-4334-bfea-ae38bf22043b)
 <img width="416" alt="Image" src="https://github.com/user-attachments/assets/05e84b4d-a578-4f81-a0d8-71108e8782ab" />
 <img width="434" alt="Image" src="https://github.com/user-attachments/assets/cfda566d-ebf8-46f7-b40c-85fc499447c3" />
 <img width="434" alt="Image" src="https://github.com/user-attachments/assets/98dafe5b-7a5e-462f-9fc4-c752d3d28c3b" />
