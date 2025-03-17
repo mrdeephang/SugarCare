@@ -45,3 +45,15 @@ python manage.py runserver
 then go to werbrowser and run
 http://127.0.0.1:8000/
 
+## WebApp Info ℹ️
+
+### Author
+
+Deephang Thegim
+Dipesh Awasthi
+Esparsh Tamrakar
+Pankaj Karki
+Kathmandu Engineering College (77 Batch)
+### Version
+
+1.0.0
