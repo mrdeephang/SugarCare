@@ -5,6 +5,9 @@ gender, hypertension, heart disease, smoking habits, BMI, HbA1c level, and blood
 Network (CNN), which achieves 94% accuracy in classifying images into ulcer and non-ulcer categories. Furthermore, the application features a diabetic retinopathy detection model that achieves 80% accuracy 
 in classifying images from No Diabetic Retinopathy (No DR) to Proliferative Diabetic Retinopathy (Proliferative DR), offering a comprehensive solution for diabetes care.
 
+<img width="433" alt="Image" src="https://github.com/user-attachments/assets/ae429843-fd69-4343-9ef7-a8fb36b1aa6f" />
+
+
 Tools Used: 
 Python: Used for machine learning, algorithms, and data processing.
 NumPy: Used for numerical operations and managing datasets.
