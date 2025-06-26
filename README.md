@@ -12,37 +12,37 @@ in classifying images from No Diabetic Retinopathy (No DR) to Proliferative Diab
 <img width="416" alt="Image" src="https://github.com/user-attachments/assets/a874b359-c8e6-40fd-a8f4-c740a28bf8c2" />
 
 ## Tools Used: 
-Python: Used for machine learning, algorithms, and data processing.
-NumPy: Used for numerical operations and managing datasets.
-Pandas: Used for data preprocessing and cleaning.
-Scikit-Learn: Used for implementing SVM for diabetes prediction.
-Bootstrap: Used for designing a responsive UI.
-TensorFlow: Used for training the CNN model for foot ulcer detection.
-OpenCV: Used for image preprocessing and augmentation.
-Keras: Used for designing and training the CNN model.
-PIL (Pillow): Used for loading and resizing medical images.
-PyTorch: Used for training CNN models for retinopathy detection.
-Blender: Used for creating 3D yoga animations.
-Visual Studio Code: Used for writing and debugging the code.
+- Python: Used for machine learning, algorithms, and data processing.
+- NumPy: Used for numerical operations and managing datasets.
+- Pandas: Used for data preprocessing and cleaning.
+- Scikit-Learn: Used for implementing SVM for diabetes prediction.
+- Bootstrap: Used for designing a responsive UI.
+- TensorFlow: Used for training the CNN model for foot ulcer detection.
+- OpenCV: Used for image preprocessing and augmentation.
+- Keras: Used for designing and training the CNN model.
+- PIL (Pillow): Used for loading and resizing medical images.
+- PyTorch: Used for training CNN models for retinopathy detection.
+- Blender: Used for creating 3D yoga animations.
+- Visual Studio Code: Used for writing and debugging the code.
 
 ## How to run?
-pip install virtualenv
-python -m venv hamro_environment        for creating virtual environment of name venv
-hamro_environment\scripts\activate           to activate virtual environment
-then install all modules using pip install 
+- pip install virtualenv
+- python -m venv hamro_environment        for creating virtual environment of name venv
+- hamro_environment\scripts\activate           to activate virtual environment
+- then install all modules using pip install 
 like 
-pip install django
-pip install django-crispy-forms
-pip install django-bootstrap4
-pip install crispy-bootstrap4
-pip install Pillow
-pip install Scikit-Learn
-pip install matplotlib
-pip install pandas
-there are more other dependencies u you nedd to install.
-python manage.py runserver
-then go to werbrowser and run
-http://127.0.0.1:8000/
+= pip install django
+- pip install django-crispy-forms
+- pip install django-bootstrap4
+- pip install crispy-bootstrap4
+- pip install Pillow
+- pip install Scikit-Learn
+- pip install matplotlib
+- pip install pandas
+- there are more other dependencies u you nedd to install.
+- python manage.py runserver
+- then go to werbrowser and run
+- http://127.0.0.1:8000/
 
 ## WebApp Info ℹ️
 
