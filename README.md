@@ -1,4 +1,5 @@
-#SugarCare: Diabetes Companion
+## SugarCare: Diabetes Companion
+
 **SugarCare: Diabetes Companion** is a web application developed as part of the Major Project provided by the Institute of Engineering, Tribhuvan University. This app aims to assist in the prediction 
 and management of diabetes by utilizing advanced machine learning and deep learning techniques. The diabetes prediction system uses a Support Vector Machine (SVM), incorporating parameters such as age, 
 gender, hypertension, heart disease, smoking habits, BMI, HbA1c level, and blood glucose level. In addition, the system includes a diabetic foot ulcer detection model built with a Convolutional Neural 
