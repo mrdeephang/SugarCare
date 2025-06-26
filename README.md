@@ -11,7 +11,7 @@ in classifying images from No Diabetic Retinopathy (No DR) to Proliferative Diab
 <img width="434" alt="Image" src="https://github.com/user-attachments/assets/98dafe5b-7a5e-462f-9fc4-c752d3d28c3b" />
 <img width="416" alt="Image" src="https://github.com/user-attachments/assets/a874b359-c8e6-40fd-a8f4-c740a28bf8c2" />
 
-Tools Used: 
+## Tools Used: 
 Python: Used for machine learning, algorithms, and data processing.
 NumPy: Used for numerical operations and managing datasets.
 Pandas: Used for data preprocessing and cleaning.
@@ -25,7 +25,7 @@ PyTorch: Used for training CNN models for retinopathy detection.
 Blender: Used for creating 3D yoga animations.
 Visual Studio Code: Used for writing and debugging the code.
 
-How to run?
+## How to run?
 pip install virtualenv
 python -m venv hamro_environment        for creating virtual environment of name venv
 hamro_environment\scripts\activate           to activate virtual environment
