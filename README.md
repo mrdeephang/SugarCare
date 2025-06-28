@@ -6,13 +6,6 @@ gender, hypertension, heart disease, smoking habits, BMI, HbA1c level, and blood
 Network (CNN), which achieves 94% accuracy in classifying images into ulcer and non-ulcer categories. Furthermore, the application features a diabetic retinopathy detection model that achieves 80% accuracy 
 in classifying images from No Diabetic Retinopathy (No DR) to Proliferative Diabetic Retinopathy (Proliferative DR), offering a comprehensive solution for diabetes care.
 
-![Image](https://github.com/user-attachments/assets/8043b6ca-e227-4c95-9101-a61e15a3740b)
-<img width="433" alt="Image" src="https://github.com/user-attachments/assets/ae429843-fd69-4343-9ef7-a8fb36b1aa6f" />
-<img width="416" alt="Image" src="https://github.com/user-attachments/assets/05e84b4d-a578-4f81-a0d8-71108e8782ab" />
-<img width="434" alt="Image" src="https://github.com/user-attachments/assets/cfda566d-ebf8-46f7-b40c-85fc499447c3" />
-<img width="434" alt="Image" src="https://github.com/user-attachments/assets/98dafe5b-7a5e-462f-9fc4-c752d3d28c3b" />
-<img width="416" alt="Image" src="https://github.com/user-attachments/assets/a874b359-c8e6-40fd-a8f4-c740a28bf8c2" />
-
 ## Tools Used: 
 - Python: Used for machine learning, algorithms, and data processing.
 - NumPy: Used for numerical operations and managing datasets.
@@ -58,3 +51,10 @@ All Rights Reserved.
 
 ### Version
 1.0.0
+
+![Image](https://github.com/user-attachments/assets/8043b6ca-e227-4c95-9101-a61e15a3740b)
+<img width="433" alt="Image" src="https://github.com/user-attachments/assets/ae429843-fd69-4343-9ef7-a8fb36b1aa6f" />
+<img width="416" alt="Image" src="https://github.com/user-attachments/assets/05e84b4d-a578-4f81-a0d8-71108e8782ab" />
+<img width="434" alt="Image" src="https://github.com/user-attachments/assets/cfda566d-ebf8-46f7-b40c-85fc499447c3" />
+<img width="434" alt="Image" src="https://github.com/user-attachments/assets/98dafe5b-7a5e-462f-9fc4-c752d3d28c3b" />
+<img width="416" alt="Image" src="https://github.com/user-attachments/assets/a874b359-c8e6-40fd-a8f4-c740a28bf8c2" />
