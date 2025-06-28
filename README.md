@@ -49,12 +49,12 @@ like
 ## WebApp Info ℹ️
 
 ### Author
-
 Deephang Thegim
 Dipesh Awasthi
 Esparsh Tamrakar
 Pankaj Karki
 Kathmandu Engineering College (77 Batch)
-### Version
+All Rights Reserved.
 
+### Version
 1.0.0
