@@ -39,7 +39,9 @@ like
 - then go to werbrowser and run
 - http://127.0.0.1:8000/
 
-## WebApp Info ℹ️
+## Reports & Research Paper
+- https://kecktmnepal-my.sharepoint.com/:b:/r/personal/deptcomp_kecktm_edu_np/Documents/Major%20Project%20BCT%202077%20Batch/DiabetesPredictionSystemUsingSVMResearchPaper.pdf?csf=1&web=1&e=clhLCc
+- https://kecktmnepal-my.sharepoint.com/:b:/r/personal/deptcomp_kecktm_edu_np/Documents/Major%20Project%20BCT%202077%20Batch/DiabetesPredictionSystemUsingSVM.pdf?csf=1&web=1&e=q3gYVn
 
 ### Author
 Deephang Thegim
