@@ -1,12 +1,16 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 import logging
+import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+load_dotenv()  # Load variables from .env
 
 logger = logging.getLogger(__name__)
 
-# Configure Gemini AI with your API key
-gemini_api_key = "AIzaSyA4pUQUbLWSnDciHbDQkstkSxyKrlovAPU"
+# Configure Gemini AI with the API key from environment variables
+gemini_api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=gemini_api_key)
 
 # Initialize the model

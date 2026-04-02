@@ -1,17 +1,22 @@
-from django.contrib.auth import get_user_model
+from django.contrib.auth.models import User
 from django.db import models
 
-User= get_user_model()
+class Room(models.Model):
+    name = models.CharField(max_length=255)
+    slug = models.SlugField(unique=True)
 
-class Messages(models.Model):
-  author= models.ForeignKey(User, related_name='author_messages', on_delete=models.CASCADE)
-  content= models.TextField()
-  timestamp= models.DateTimeField(auto_now_add=True)
+    def __str__(self):
+        return self.name  
 
 
-  def __str__(self):
-    return self.author.username
-  
+class Message(models.Model):
+    room = models.ForeignKey(Room,  on_delete=models.CASCADE)
+    user = models.ForeignKey(User,  on_delete=models.CASCADE)
+    content = models.TextField()
+    date_added = models.DateTimeField(auto_now_add=True)
 
-  def last_10_messages(self):
-    return Messages.objects.order_by('-timestamp').all()[:10]
+    class Meta:
+        ordering = ('date_added',)
+
+    def __str__(self):
+        return f"Message by {self.user.username} in {self.room.name}"  

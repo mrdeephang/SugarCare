@@ -31,22 +31,26 @@ A web application developed as a Major Project at the Institute of Engineering, 
 ## ✨ Features
 
 ### 🔬 Diabetes Prediction System
+
 - **SVM-based prediction** using clinical parameters:
   - Age, Gender, Hypertension, Heart Disease
   - Smoking Habits, BMI, HbA1c Level, Blood Glucose Level
 - Accurate risk assessment for diabetes
 
 ### 🦶 Diabetic Foot Ulcer Detection
+
 - **CNN-powered image classification**
 - **94% accuracy** in detecting foot ulcers
 - Binary classification: Ulcer vs Non-ulcer
 
 ### 👁️ Diabetic Retinopathy Detection
+
 - **Advanced CNN model** for retinal image analysis
 - **80% accuracy** in severity classification
 - Stages: No DR → Mild → Moderate → Severe → Proliferative DR
 
 ### 🧘 Wellness Features
+
 - 3D yoga exercise animations (Blender-rendered)
 - Comprehensive diabetes management guidance
 
@@ -54,20 +58,20 @@ A web application developed as a Major Project at the Institute of Engineering, 
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| **Python** | Backend & ML algorithms |
-| **Django** | Web framework |
-| **NumPy** | Numerical computations |
-| **Pandas** | Data preprocessing |
-| **Scikit-Learn** | SVM implementation |
-| **TensorFlow** | CNN training (foot ulcer) |
-| **PyTorch** | CNN training (retinopathy) |
-| **Keras** | Neural network design |
-| **OpenCV** | Image preprocessing |
-| **PIL (Pillow)** | Medical image handling |
-| **Bootstrap** | Responsive UI design |
-| **Blender** | 3D yoga animations |
+| Technology       | Purpose                    |
+| ---------------- | -------------------------- |
+| **Python**       | Backend & ML algorithms    |
+| **Django**       | Web framework              |
+| **NumPy**        | Numerical computations     |
+| **Pandas**       | Data preprocessing         |
+| **Scikit-Learn** | SVM implementation         |
+| **TensorFlow**   | CNN training (foot ulcer)  |
+| **PyTorch**      | CNN training (retinopathy) |
+| **Keras**        | Neural network design      |
+| **OpenCV**       | Image preprocessing        |
+| **PIL (Pillow)** | Medical image handling     |
+| **Bootstrap**    | Responsive UI design       |
+| **Blender**      | 3D yoga animations         |
 
 ---
 
@@ -92,24 +96,7 @@ source hamro_environment/bin/activate
 ### 2. Install Dependencies
 
 ```bash
-# Core dependencies
-pip install django
-pip install django-crispy-forms
-pip install django-bootstrap4
-pip install crispy-bootstrap4
-
-# ML/DL libraries
-pip install scikit-learn
-pip install tensorflow
-pip install torch torchvision
-pip install keras
-pip install opencv-python
-
-# Data processing
-pip install numpy
-pip install pandas
-pip install matplotlib
-pip install Pillow
+pip install -r requirements.txt
 ```
 
 ### 3. Run the Application
@@ -126,17 +113,18 @@ python manage.py runserver
 
 ## 📊 Model Performance
 
-| Model | Accuracy | Purpose |
-|-------|----------|---------|
-| **SVM** | High | Diabetes risk prediction |
-| **CNN (Foot Ulcer)** | 94% | Ulcer detection |
-| **CNN (Retinopathy)** | 80% | Retinopathy staging |
+| Model                 | Accuracy | Purpose                  |
+| --------------------- | -------- | ------------------------ |
+| **SVM**               | High     | Diabetes risk prediction |
+| **CNN (Foot Ulcer)**  | 94%      | Ulcer detection          |
+| **CNN (Retinopathy)** | 80%      | Retinopathy staging      |
 
 ---
 
 ## 📄 Documentation
 
 ### Research Paper & Reports
+
 - [Research Paper](https://kecktmnepal-my.sharepoint.com/:b:/r/personal/deptcomp_kecktm_edu_np/Documents/Major%20Project%20BCT%202077%20Batch/DiabetesPredictionSystemUsingSVMResearchPaper.pdf?csf=1&web=1&e=clhLCc)
 - [Project Report](https://kecktmnepal-my.sharepoint.com/:b:/r/personal/deptcomp_kecktm_edu_np/Documents/Major%20Project%20BCT%202077%20Batch/DiabetesPredictionSystemUsingSVM.pdf?csf=1&web=1&e=q3gYVn)
 

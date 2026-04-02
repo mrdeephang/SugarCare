@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'blogs/main.css' %}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -23,6 +24,9 @@
             {% if user.is_authenticated %}
               <a class="nav-item nav-link" href="{% url 'bloghome' %}">HOME</a>
               <a class="nav-item nav-link" href="{% url 'blogabout' %}">ABOUT</a>
+              {% if user.username == 'johndoe' %}
+                <a class="nav-item nav-link" href="{% url 'rooms' %}">MESSAGES</a>
+              {% endif %}
               </div>
               <div class="navbar-nav">
                 
@@ -47,7 +51,7 @@
               <span></span>
               Logout
               </a>
-              <a id="auth-links" href="{% url 'test' %}">
+              <a id="auth-links" href="{% url 'pretest' %}">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -177,8 +181,10 @@
         <footer class="" >
           <ul class="nav justify-content-center border-bottom"  style="margin-top: 60px;">
             <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link px-2 text-muted">ContactUs</a></li>
-            <li class="nav-item"><a href="{% url 'test' %}" class="nav-link px-2 text-muted">Test</a></li>
+            <li class="nav-item"><a href="{% url 'exercise' %}" class="nav-link px-2 text-muted">Explore</a></li>
             <li class="nav-item"><a href="{% url 'consult' %}" class="nav-link px-2 text-muted">Consult</a></li>
+            <li class="nav-item"><a href="{% url 'dashboard' %}" class="nav-link px-2 text-muted">Track</a></li>
+
             
           </ul>
           <p class="text-center text-muted">&copy; SugarCare-2024</p>

@@ -40,7 +40,7 @@
   }
 </style>
 <div class="container">
-  <div class="profile-photo">
+  <div class="profile-photo" class="my-3">
       <img src="https://static.vecteezy.com/system/resources/thumbnails/027/298/490/small/doctor-posing-portrait-free-photo.jpg" alt="Dr. John Doe">
   </div>
   <h1>Dr. John Doe</h1>
@@ -86,7 +86,8 @@
     <p>"From the very first consultation, I knew I was in good hands. Dr. Doe genuinely cares about his patients and goes above and beyond."  - Emma T.</p>
 </div>
   <div class="chat-button">
-      <button onclick="startChat()">Chat with Dr. John Doe</button>
+        <a href="{% url 'create-room' %}">
+      <button>Chat with Dr. John Doe</button></a>
   </div>
 </div>
 {% endblock %}

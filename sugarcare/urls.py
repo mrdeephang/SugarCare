@@ -6,11 +6,17 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import reverse_lazy
 
+from django.views.generic.base import RedirectView
+from django.contrib.staticfiles.storage import staticfiles_storage
+
 urlpatterns = [
+    path('favicon.ico', RedirectView.as_view(url=staticfiles_storage.url('favicon.ico'))),
     path('admin/', admin.site.urls),
     path('', include('chatbot.urls')),
     path('', include('blogs.urls')),
-    path('chat/', include('chat.urls')),
+    path('chat/', include('room.urls')),
+    path('track/',include('fitnesstracker.urls')),
+    path('pretest/ulcer-detection/', include('ulcer_detection.urls')),
     path('register/', user_views.register, name="register"),
     path('profile/', user_views.profile, name="profile"),
     path('profile/profile_update/', user_views.profile_update, name="profile-update"),
