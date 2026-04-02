@@ -1,4 +1,4 @@
-# 🩺 SugarCare: Diabetes Companion
+# SugarCare: Diabetes Companion
 
 > **AI-powered diabetes management platform** — Comprehensive prediction and detection system for diabetes care
 
@@ -6,7 +6,7 @@ A web application developed as a Major Project at the Institute of Engineering, 
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8043b6ca-e227-4c95-9101-a61e15a3740b" alt="Dashboard" width="400"/>
@@ -28,35 +28,35 @@ A web application developed as a Major Project at the Institute of Engineering, 
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔬 Diabetes Prediction System
+### Diabetes Prediction System
 
 - **SVM-based prediction** using clinical parameters:
   - Age, Gender, Hypertension, Heart Disease
   - Smoking Habits, BMI, HbA1c Level, Blood Glucose Level
 - Accurate risk assessment for diabetes
 
-### 🦶 Diabetic Foot Ulcer Detection
+### Diabetic Foot Ulcer Detection
 
 - **CNN-powered image classification**
 - **94% accuracy** in detecting foot ulcers
 - Binary classification: Ulcer vs Non-ulcer
 
-### 👁️ Diabetic Retinopathy Detection
+### Diabetic Retinopathy Detection
 
 - **Advanced CNN model** for retinal image analysis
 - **80% accuracy** in severity classification
 - Stages: No DR → Mild → Moderate → Severe → Proliferative DR
 
-### 🧘 Wellness Features
+### Wellness Features
 
 - 3D yoga exercise animations (Blender-rendered)
 - Comprehensive diabetes management guidance
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology       | Purpose                    |
 | ---------------- | -------------------------- |
@@ -75,7 +75,7 @@ A web application developed as a Major Project at the Institute of Engineering, 
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Create Virtual Environment
 
@@ -111,7 +111,7 @@ python manage.py runserver
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model                 | Accuracy | Purpose                  |
 | --------------------- | -------- | ------------------------ |
@@ -121,7 +121,7 @@ python manage.py runserver
 
 ---
 
-## 📄 Documentation
+## Documentation
 
 ### Research Paper & Reports
 
@@ -130,7 +130,7 @@ python manage.py runserver
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 **Kathmandu Engineering College — BCT 077 Batch**
 
@@ -141,7 +141,7 @@ python manage.py runserver
 
 ---
 
-## 🎓 Project Context
+## Project Context
 
 **Institution:** Institute of Engineering, Tribhuvan University  
 **College:** Kathmandu Engineering College  
@@ -151,6 +151,6 @@ python manage.py runserver
 
 ---
 
-## 📄 License
+## License
 
 All Rights Reserved © 2025 SugarCare Team
