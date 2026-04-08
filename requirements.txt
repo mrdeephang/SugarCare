@@ -100,3 +100,8 @@ zope.interface==7.2
 python-dotenv
 gunicorn
 whitenoise
+dj-database-url
+psycopg2-binary
+cloudinary
+django-cloudinary-storage
+channels-redis
